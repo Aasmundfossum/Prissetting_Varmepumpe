@@ -87,7 +87,6 @@ class cost_heatpump:
 
     def read_datasheet_excel(self):
 
-
         self.vp_name = 'IRON 120.2 50-55'
         datasheet = pd.read_excel('Varmepumper til prisberegning.xlsx',sheet_name=self.vp_name) 
 
